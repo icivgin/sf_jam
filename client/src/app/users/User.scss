@@ -1,0 +1,58 @@
+.search-bar {
+  width: 100%;
+  font-size: 14px;
+}
+
+p.input-small {
+  margin: 4px 0 15px 5px;
+  font-size: 11px;
+  color: grey;
+}
+
+.user-container {
+  padding: 20px;
+  background: #fcfcfc;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 3px #eee;
+}
+
+@media (max-width: 813px) { 
+  .user-container {
+    .left {
+      display: inline;
+      .user-avatar {
+        display: inline-block;
+        max-width: 80px;
+        max-height: 80px;
+        margin: 0 20px 10px 0;
+      }
+      a {
+        display: block;
+        font-size: 12px;
+        text-decoration: underline;
+        margin: 5px 0;
+      }
+      .mb {
+        margin-bottom: 10px;
+      }
+    }
+    .right {
+      .neighborhood {
+        margin: 0 0 3px;
+        font-weight: bold;
+        font-size: 10px;
+        color: #fe7028;
+      }
+      .name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+      .bio {
+        font-size: 12px;
+      }
+    }
+  }
+}

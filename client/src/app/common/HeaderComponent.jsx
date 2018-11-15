@@ -7,7 +7,9 @@ class HeaderComponent extends Component {
     return (
       <nav>
         <p><Link to="/">sfJam</Link></p>
-        <p className="right"><Link to="/users">Users</Link></p>
+        <p className="right"><Link to="/signup">Sign Up</Link></p>
+        <p className="right"><Link to="/login">Login</Link></p>
+        <p className="right"><Link to="/users">Users</Link></p>        
       </nav> 
     )
   }
